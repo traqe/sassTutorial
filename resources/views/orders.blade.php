@@ -22,7 +22,7 @@
                             <form action="/orders/{{ $order->id }}" method="POST">
                                 @method('DELETE')
                                 @csrf
-                                <button style="background-color: rgb(154, 45, 64); padding: 7px; border-radius: 7px;" type="submit">CHECK ORDER</button>
+                                <button style="background-color: rgb(154, 45, 65); padding: 7px; border-radius: 7px;" type="submit">CHECK ORDER</button>
                             </form>
                         </div>
                     </div>
